@@ -1,6 +1,6 @@
 n = ARGV[0].to_i 
 n.times do |i|
-    if i.even?
+    if i % 2 == 0
         print '1'
     elsif
         print '2'
